@@ -1,0 +1,55 @@
+000100191122     A          R HEADINGS
+000101191122     A                                  2  6'User:'
+000102191122     A                                  1  1'Timestamp:'
+000103191122     A                                  3  3'Server:'
+000104191122     A                                  1105'Page:'
+000105191122     A                                  1112PAGNBR
+000106191122     A            TIMESTAMP       Z     1 12
+000107191122     A            USER          10      2 12
+000108191122     A            SERVER        10      3 12
+000109191122     A                                  2 48'P H O N E   L O G   R E P O R T'
+000110191122     A                                  5  3'Sales'
+000111191122     A                                  6  4'ID'
+000112191122     A                                  5 11'Customer'
+000113191122     A                                  5 27'Customer Name'
+000114191122     A                                  6 11'Number'
+000115191122     A                                  6 78'Called'
+000116191122     A                                  5 59'Telephone'
+000117191122     A                                  5 77'Last Date'
+000118191122     A                                  5 90'Oldest Call'
+000119191122     A                                  6 94'Date'
+000120191122     A                                  5103'Next Call'
+000121191122     A                                  6105'Date'
+000122191122     A                                  7131'*'
+000123191122     A          R DETAIL                    SPACEB(1)
+000124191122     A            CSTSLN    R              3REFFLD(CONTACTW19/CSTSLN +
+000125191122     A                                      BCI433LIB/CONTACTW19)
+000126191122     A            CSTNUM    R             11
+000127191122     A                                      REFFLD(CUSTOMER19/CSTNUM +
+000128191122     A                                      BCI433LIB/CUSTOMER19)
+000129191122     A            CSTNAM    R             22REFFLD(CUSTOMER19/CSTNAM +
+000130191122     A                                      BCI433LIB/CUSTOMER19)
+000131191122     A            CSTPHN    R             57REFFLD(CONTACTW19/CSTPHN +
+000132191122     A                                      BCI433LIB/CONTACTW19)
+000133191122     A            PHNLDC    R             77REFFLD(CONTACTW19/PHNLDC +
+000134191122     A                                      BCI433LIB/CONTACTW19)
+000135191122     A            FLAG           8        91
+000136191122     A            NEXTCDATE       L      103
+000137191122     A          R SUMMARY                   SPACEB(3)
+000138191122     A                                    12'S U M M A R Y   I N F O R M A T I -
+000139191122     A                                      O N'
+000140191122     A                                     2'CONTACTW19 Total Records:'
+000141191122     A                                      SPACEB(2)
+000142191122     A            CONTACTT       5  0     27EDTCDE(1)
+000143191122     A                                    44'Oldest Last Callback Date:'
+000144191122     A            OLDESTDATE      L       71
+000145191122     A                                     2'CUSTOMER19 Total Records:'
+000146191122     A                                      SPACEB(1)
+000147191122     A            CUSTOMERT      5  0     27EDTCDE(1)
+000148191122     A                                    39'Most Recent Last Callback Date:'
+000149191122     A            RECENTDATE      L       71
+000150191122     A                                     2'Total Records with an Unknown Last-
+000151191122     A                                       Callback Date:'
+000152191122     A                                      SPACEB(2)
+000153191122     A            UNKNOWNT       5  0     52EDTCDE(1)
+000154191122
